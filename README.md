@@ -10,3 +10,4 @@ Run the following command from the project root
 ```bash
 node bin/www
 ```
+Once the site is running you can access it at http://localhost:3000
