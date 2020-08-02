@@ -20,34 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ca2a389-308d-4810-a170-26e5227a4a70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/thewendigoman.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/tileImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/styles/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/_globals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/components/.gitfolder" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sass/pages/.gitfolder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/_imageFlex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_imageFlex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/components/.gitfolder" beforeDir="false" afterPath="$PROJECT_DIR$/artworkifier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fWJowfF27QFJl4Tn9pbQJ62vln" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Steph\WebstormProjects\TheWendigoMan\sass\components" />
       <recent name="$PROJECT_DIR$/sass" />
     </key>
   </component>
@@ -78,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596328093309</updated>
       <workItem from="1596328094398" duration="5715000" />
+      <workItem from="1596402925159" duration="1019000" />
     </task>
     <servers />
   </component>
@@ -94,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596341028560">
@@ -124,5 +121,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1873" height="265" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596340904264" />
+    <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596403888276">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1097" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1080.-141.1080.1880/2560.-141.1080.1880@0.0.2560.1400" timestamp="1596403888276" />
   </component>
 </project>
