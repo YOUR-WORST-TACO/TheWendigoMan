@@ -1,5 +1,6 @@
 # TheWendigoMan
 Root repository for TheWendigoMan's personal website. Built with express.js and EJS on node.js.
+And the incredible power of TACO.
 ## Setup
 To get started simply run
 ```bash
