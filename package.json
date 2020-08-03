@@ -6,6 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "sharp": "^0.25.4",
+    "mime-types": "^2.1.27",
+    "image-size": "latest",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
