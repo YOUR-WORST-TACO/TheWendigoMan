@@ -2,7 +2,11 @@
 
 ## Robyn projects
 
-- adjust sass component imageFlex to order index items in a grid.
+- build a content sass component that has the following specifications:
+    - with of 1200px
+    - margin: auto 0
+- put all the items in index inside a content div
+- adjust sass component imageFlex to order index images in a grid.
 - make grid adjustable ie: images per row, spacing between images, border radius etc, use sass variables.
 - brainstorm some possible site layouts for peer review and discussion.
 - develop a sort function in artworkifier that sorts art files based on the following:
