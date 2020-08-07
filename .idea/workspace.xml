@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ca2a389-308d-4810-a170-26e5227a4a70" name="Default Changelist" comment="">
+    <list default="true" id="7ca2a389-308d-4810-a170-26e5227a4a70" name="Default Changelist" comment="Added more example pictures to work with">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/artworkifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/artworkifier.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/artImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/artImage.js" afterDir="false" />
@@ -81,7 +81,7 @@
       <workItem from="1596328094398" duration="5715000" />
       <workItem from="1596402925159" duration="13491000" />
       <workItem from="1596485154386" duration="5768000" />
-      <workItem from="1596835940271" duration="795000" />
+      <workItem from="1596835940271" duration="1698000" />
     </task>
     <task id="LOCAL-00001" summary="Merged Robyn's changes">
       <created>1596403965227</created>
@@ -104,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596835999255</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ready for Robyn work">
+      <created>1596836861020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596836861020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added more example pictures to work with">
+      <created>1596836891199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596836891199</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +140,9 @@
     <MESSAGE value="Merged Robyn's changes" />
     <MESSAGE value="created artworkifier.js, built out artImage.js added wallpapers for testing added a couple packages you will need to npm install" />
     <MESSAGE value="Work connecting routes and frontend" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work connecting routes and frontend" />
+    <MESSAGE value="Ready for Robyn work" />
+    <MESSAGE value="Added more example pictures to work with" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more example pictures to work with" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="192" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596341028560">
@@ -141,10 +157,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400/-1080.-141.1080.1880/2560.-141.1080.1880@0.0.2560.1400" timestamp="1596409637594" />
-    <state x="901" y="181" key="CommitChangelistDialog2" timestamp="1596835998865">
+    <state x="901" y="181" key="CommitChangelistDialog2" timestamp="1596837545716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="901" y="181" key="CommitChangelistDialog2/0.0.2560.1400/-1080.-141.1080.1880/2560.-141.1080.1880@0.0.2560.1400" timestamp="1596835998865" />
+    <state x="901" y="181" key="CommitChangelistDialog2/0.0.2560.1400/-1080.-141.1080.1880/2560.-141.1080.1880@0.0.2560.1400" timestamp="1596837545716" />
     <state x="747" y="277" key="FileChooserDialogImpl" timestamp="1596340177916">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

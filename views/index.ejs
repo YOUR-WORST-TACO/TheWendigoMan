@@ -3,10 +3,14 @@
   <head>
     <title>index</title>
     <link rel='stylesheet' href='/styles/main.css' />
-
-
   </head>
   <body>
+
+  <!-- below is an example of loading images with
+       EJS and displaying them as clickable links,
+       note the syntax so you can modify it for
+       your testing purposes. -->
+
     <%for (const thing of art_tiles) { %>
       <div>
           <a href="<%= thing.webPath %>">
