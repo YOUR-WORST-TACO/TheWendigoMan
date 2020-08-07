@@ -1,9 +1,14 @@
 var express = require('express');
 var router = express.Router();
+const artworkifier = require('../artworkifier');
+const path = require('path');
+
+const artworkPath = path.join(__dirname, '../public/artwork');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Whole Lotta nuthin' });
+router.get('/', async function(req, res, next) {
+  let artFiles = artworkifier.artFiles;
+  res.render('index', { art_tiles: artFiles });
 });
 
 module.exports = router;

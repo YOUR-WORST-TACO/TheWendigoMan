@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>index</title>
     <link rel='stylesheet' href='/styles/main.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <table>
+      <tr>
+        <th>File Name</th>
+        <th>Mime Type</th>
+        <th>Width</th>
+        <th>Height</th>
+        <th>Size (Mb)</th>
+        <th>Thumbnail</th>
+        <th>Web Path</th>
+      </tr>
+    <%for (const thing of art_tiles) { %>
+      <tr>
+        <td><%= thing.fileName %></td>
+        <td><%= thing.mimetype %></td>
+        <td><%= thing.width %></td>
+        <td><%= thing.height %></td>
+        <td><%= Math.round(thing.size * 100)/100 %> Mbs</td>
+        <td><%= thing.thumbnail %></td>
+        <td><%= thing.webPath %></td>
+      </tr>
+    <%}%>
+    </table>
   </body>
 </html>

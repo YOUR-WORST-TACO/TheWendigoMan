@@ -2,11 +2,12 @@ const ArtImage = require('./models/artImage');
 
 const { promisify } = require('util')
 
-const mime = require('mime-types');
 const sizeOf = promisify(require('image-size'));
+const readdir = promisify(require('fs').readdir)
+
+const mime = require('mime-types');
 const path = require('path');
 const fs = require('fs');
-const readdir = promisify(require('fs').readdir)
 
 async function loadArtFiles (filePath) {
     let artFiles = [];
@@ -58,4 +59,8 @@ module.exports.artworkifierInit = async function () {
     for (const thing of artFiles) {
         console.log(thing);
     }
+
+    module.exports.artFiles = artFiles;
 }
+
+module.exports.loadArtFiles = loadArtFiles;
