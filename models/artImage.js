@@ -7,7 +7,7 @@ const sharp = require("sharp");
 const readdir = promisify(require('fs').readdir)
 
 class ArtImage {
-    constructor(size = 0, height = 0, width = 0, mimetype = "application/octet-stream", fileName = "", fullPath = "", webPath = "", thumbnail = "", thumbnailPath = "") {
+    constructor(size = 0, height = 0, width = 0, mimetype = "application/octet-stream", fileName = "", fullPath = "", webPath = "", thumbnail = "", thumbnailPath = "", landscape = true) {
         this.size = size;
         this.height = height;
         this.width = width;
@@ -17,6 +17,7 @@ class ArtImage {
         this.webPath = webPath;
         this.thumbnail = thumbnail;
         this.thumbnailPath = thumbnailPath;
+        this.landscape = landscape;
     }
 
     async loadThumbnail() {

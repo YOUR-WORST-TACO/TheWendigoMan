@@ -20,7 +20,7 @@ async function loadArtFiles (filePath) {
 
             artImage.fileName = file.name;
             artImage.fullPath = path.join(filePath, file.name);
-            artImage.webPath = "/artwork" + artImage.fileName;
+            artImage.webPath = "/artwork/" + artImage.fileName;
 
             let fileStats = fs.statSync(artImage.fullPath);
             artImage.size = fileStats["size"] / 1048576.0;
@@ -31,6 +31,11 @@ async function loadArtFiles (filePath) {
                     artImage.width = dimensions.width;
                 })
                 .catch( err => console.error(err));
+
+            if ( artImage.height > artImage.width )
+            {
+                artImage.landscape = false;
+            }
 
             artImage.mimetype = mime.lookup(artImage.fullPath);
             await artImage.loadThumbnail();

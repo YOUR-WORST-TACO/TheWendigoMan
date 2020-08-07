@@ -3,29 +3,16 @@
   <head>
     <title>index</title>
     <link rel='stylesheet' href='/styles/main.css' />
+
+
   </head>
   <body>
-    <table>
-      <tr>
-        <th>File Name</th>
-        <th>Mime Type</th>
-        <th>Width</th>
-        <th>Height</th>
-        <th>Size (Mb)</th>
-        <th>Thumbnail</th>
-        <th>Web Path</th>
-      </tr>
     <%for (const thing of art_tiles) { %>
-      <tr>
-        <td><%= thing.fileName %></td>
-        <td><%= thing.mimetype %></td>
-        <td><%= thing.width %></td>
-        <td><%= thing.height %></td>
-        <td><%= Math.round(thing.size * 100)/100 %> Mbs</td>
-        <td><%= thing.thumbnail %></td>
-        <td><%= thing.webPath %></td>
-      </tr>
+      <div>
+          <a href="<%= thing.webPath %>">
+            <img src="<%= thing.thumbnail %>"/>
+          </a>
+      </div>
     <%}%>
-    </table>
   </body>
 </html>
