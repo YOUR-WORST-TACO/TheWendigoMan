@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 const artworkifier = require('../artworkifier');
 const path = require('path');
 

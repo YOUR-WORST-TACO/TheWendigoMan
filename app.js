@@ -1,21 +1,21 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var sassMiddleware = require('node-sass-middleware');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const sassMiddleware = require('node-sass-middleware');
 
-var artworkifier = require('./artworkifier');
+const artworkifier = require('./artworkifier');
 
 artworkifier.artworkifierInit().then( info => {
   console.log("artworkifier successfully initialized.")
 });
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var demoRouter = require('./routes/demo');
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
+const demoRouter = require('./routes/demo');
 
-var app = express();
+let app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

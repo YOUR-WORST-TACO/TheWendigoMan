@@ -1,7 +1,7 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 
-var testVariable = require('../artworkifier');
+const artworkifier = require('../artworkifier');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/test', function(req, res, next) {
-  res.send(testVariable);
+  res.send(artworkifier);
 });
 
 module.exports = router;
