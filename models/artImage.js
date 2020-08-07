@@ -22,9 +22,10 @@ ArtImage
         - thumbnail => web accessible path of image thumbnail
         - thumbnailPath => full path on local machine of image thumbnail
         - landscape => true if image is landscape oriented, otherwise false
+        - publishDate => date file was created
  */
 class ArtImage {
-    constructor(size = 0, height = 0, width = 0, mimetype = "application/octet-stream", fileName = "", fullPath = "", webPath = "", thumbnail = "", thumbnailPath = "", landscape = true) {
+    constructor(size = 0, height = 0, width = 0, mimetype = "application/octet-stream", fileName = "", fullPath = "", webPath = "", thumbnail = "", thumbnailPath = "", landscape = true, publishDate = Date.now()) {
         this.size = size;
         this.height = height;
         this.width = width;
@@ -35,6 +36,7 @@ class ArtImage {
         this.thumbnail = thumbnail;
         this.thumbnailPath = thumbnailPath;
         this.landscape = landscape;
+        this.publishDate = publishDate;
     }
 
     /*

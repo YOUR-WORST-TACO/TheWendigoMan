@@ -32,6 +32,7 @@ async function loadArtFiles (filePath) {
             // get a stat object from file
             let fileStats = fs.statSync(artImage.fullPath);
             artImage.size = fileStats["size"] / 1048576.0;
+            artImage.publishDate = fileStats["birthtime"];
 
             // get dimensions
             await sizeOf(artImage.fullPath)
