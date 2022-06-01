@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "sharp": "^0.25.4",
+    "sharp": "^0.30.5",
     "mime-types": "^2.1.27",
     "image-size": "latest",
     "cookie-parser": "~1.4.4",
